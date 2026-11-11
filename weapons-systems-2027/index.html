@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>무기체계 · 2027학년도 1학기</title>
+<style>
+:root{--navy:#1B2A41;--amber:#D4A017;--tint:#EEF1F5;--muted:#5F6B7A}
+*{box-sizing:border-box}body{margin:0;font-family:"맑은 고딕","Malgun Gothic",system-ui,sans-serif;color:#222;line-height:1.6}
+header{background:var(--navy);color:#fff;padding:72px 8vw 56px}
+header .k{color:var(--amber);font-weight:700;margin:0}header h1{font-size:56px;margin:6px 0}header p{color:#C9D3E0;font-size:20px;margin:0 0 28px}
+nav a{display:inline-block;margin:0 10px 10px 0;padding:10px 18px;background:#2C3E5A;color:#fff;text-decoration:none;border-radius:6px}
+nav a:hover{background:var(--amber);color:var(--navy)}
+main{max-width:1180px;margin:0 auto;padding:0 24px}section{padding:56px 0 8px}
+h2{font-size:32px;color:var(--navy);margin:0 0 20px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.stat{background:var(--tint);border-radius:12px;padding:20px}
+.stat b{font-size:44px;color:var(--navy)}.stat span{display:block;color:var(--muted)}
+.road{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.chip{border-radius:10px;padding:12px 14px;min-height:96px}
+.chip small{opacity:.8}.chip span{display:block;font-weight:700;font-size:14px;margin-top:4px;word-break:keep-all}
+.legend{margin-top:12px;color:var(--muted);font-size:14px}.legend span{margin-right:16px}.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.week{display:grid;grid-template-columns:420px 1fr;gap:28px;background:#fff;border:1px solid #E1E6ED;border-radius:14px;overflow:hidden;margin-bottom:22px}
+.week img{width:100%;height:100%;min-height:260px;object-fit:cover}.week .body{padding:22px 26px 18px 0}
+.kick{font-weight:700;margin:0;font-size:14px}.week h3{font-size:24px;color:var(--navy);margin:2px 0 10px}
+.week ol{margin:0 0 14px;padding-left:22px}.week li{word-break:keep-all}
+.ai{background:var(--navy);color:#fff;border-radius:10px;padding:12px 18px}.ai b{color:var(--amber)}.ai ul{margin:4px 0 0;padding-left:20px}
+.cap{font-size:12px;color:var(--muted);margin:10px 0 0}.cap a{color:var(--muted)}
+.eval{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.eval div{border-radius:12px;padding:18px;background:var(--tint)}
+.eval b{font-size:40px}.eval h4{margin:4px 0 8px;color:var(--navy)}.eval ul{margin:0;padding-left:18px;font-size:15px}
+.dl{display:inline-block;margin:0 12px 12px 0;padding:14px 22px;border-radius:8px;background:var(--navy);color:#fff;text-decoration:none;font-weight:700}
+.dl:hover{background:var(--amber);color:var(--navy)}
+footer{margin-top:56px;padding:28px 8vw;background:var(--tint);color:var(--muted);font-size:13px}
+@media(max-width:860px){.stats,.eval{grid-template-columns:1fr 1fr}.road{grid-template-columns:repeat(3,1fr)}.week{grid-template-columns:1fr}.week .body{padding:0 20px 18px}header h1{font-size:40px}}
+</style></head><body>
+<header><p class="k">한울대학교 · 2027학년도 1학기</p><h1>무기체계</h1>
+<p>육 · 해 · 공군 무기체계와 AI 적용 사례</p>
+<nav><a href="#plan">수업계획</a><a href="#lectures">강의자료</a><a href="#eval">평가계획</a><a href="#files">자료 내려받기</a></nav></header>
+<main>
+<section id="plan"><h2>수업계획</h2>
+<div class="stats"><div class="stat"><b>3</b> 학점<span>전공</span></div><div class="stat"><b>15</b> 주<span>8주 중간 · 15주 기말</span></div>
+<div class="stat"><b>3</b> 개 군<span>육군 · 해군 · 공군</span></div><div class="stat"><b>13</b> 개 주차<span>매주 AI 적용 사례</span></div></div>
+<h2 style="margin-top:36px;font-size:24px">15주 로드맵</h2><div class="road"><div class="chip" style="background:#5F6B7A;color:#fff"><b>1주</b> <small>3/3</small><span>오리엔테이션 · 무기체계란</span></div><div class="chip" style="background:#5F6B7A;color:#fff"><b>2주</b> <small>3/10</small><span>분류와 획득 과정</span></div><div class="chip" style="background:#4B5D3A;color:#fff"><b>3주</b> <small>3/17</small><span>화력: 화포 · 로켓 · 유도무기</span></div><div class="chip" style="background:#4B5D3A;color:#fff"><b>4주</b> <small>3/24</small><span>기동: 전차 · 장갑차 · 헬기</span></div><div class="chip" style="background:#1F4E79;color:#fff"><b>5주</b> <small>3/31</small><span>수상함: 구축함 · 이지스함</span></div><div class="chip" style="background:#1F4E79;color:#fff"><b>6주</b> <small>4/7</small><span>잠수함 · 대잠전 · 기뢰전</span></div><div class="chip" style="background:#3E7CB1;color:#fff"><b>7주</b> <small>4/14</small><span>전투기와 항공 무장</span></div><div class="chip" style="background:#D4A017;color:#1B2A41"><b>8주</b> <small>4/21</small><span>중간고사</span></div><div class="chip" style="background:#3E7CB1;color:#fff"><b>9주</b> <small>4/28</small><span>급유기 · 조기경보기 · 무인기</span></div><div class="chip" style="background:#7A4E2D;color:#fff"><b>10주</b> <small>5/5</small><span>방공 · 미사일 방어 (휴강·보강)</span></div><div class="chip" style="background:#7A4E2D;color:#fff"><b>11주</b> <small>5/12</small><span>정밀유도무기와 C4I</span></div><div class="chip" style="background:#7A4E2D;color:#fff"><b>12주</b> <small>5/19</small><span>무인 · AI 무기체계</span></div><div class="chip" style="background:#7A4E2D;color:#fff"><b>13주</b> <small>5/26</small><span>우주 · 사이버 · 전자전</span></div><div class="chip" style="background:#5F6B7A;color:#fff"><b>14주</b> <small>6/2</small><span>한국군 무기체계와 방산</span></div><div class="chip" style="background:#D4A017;color:#1B2A41"><b>15주</b> <small>6/9</small><span>기말고사</span></div></div><div class="legend"><span><i style="background:#5F6B7A"></i>공통</span><span><i style="background:#4B5D3A"></i>육군</span><span><i style="background:#1F4E79"></i>해군</span><span><i style="background:#3E7CB1"></i>공군</span><span><i style="background:#7A4E2D"></i>합동</span><span><i style="background:#D4A017"></i>시험</span></div>
+<p class="cap">10주(5/5)는 어린이날 휴강이며 보강 일정은 추후 공지합니다.</p></section>
+<section id="lectures"><h2>강의자료 · 주차별 핵심 내용</h2>
+<article class="week" id="w1">
+  <img src="img/w01.jpg" alt="밸리언트 실드 2014 합동 편대" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#5F6B7A">1주차 · 공통</p>
+    <h3>무기체계란 무엇인가</h3>
+    <ol><li>무기체계 = 무기 + 운용 인력 + 지원체계</li><li>전쟁 양상: 재래식 → 네트워크 중심전 → 지능화전</li><li>강의 구성 · 평가 · AI 사용 범위 안내</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>AI 무기체계의 개념과 자율성 수준</li><li>인간 개입: In · On · Out-of-the-loop</li></ul></div>
+    <p class="cap">사진: 밸리언트 실드 2014 합동 편대 · <a href="https://commons.wikimedia.org/wiki/File:Joint_formation_of_United_States_Air_Force_and_Marine_Corps_aircraft_flying_over_George_Washington_and_Carl_Vinson_carrier_strike_groups_at_end_of_Valiant_Shield_2014_140923-N-ZS026-1002.jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w2">
+  <img src="img/w02.jpg" alt="퍼싱 II 미사일 시험 발사(1982)" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#5F6B7A">2주차 · 공통</p>
+    <h3>무기체계의 분류와 획득 과정</h3>
+    <ol><li>분류: 기동 · 화력 · 함정 · 항공 · 방호 · 지휘통제</li><li>획득: 소요 제기 → 개발 → 시험평가 → 전력화</li><li>수명주기와 운영유지 비용</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>데이터 · 학습으로 성능이 계속 바뀜</li><li>시험평가 · 신뢰성 검증이 어려움</li></ul></div>
+    <p class="cap">사진: 퍼싱 II 미사일 시험 발사(1982) · <a href="https://commons.wikimedia.org/wiki/File:Pershing_II_missile_test_launch_in_1982.JPEG" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w3">
+  <img src="img/w03.jpg" alt="HIMARS 실사격 훈련" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#4B5D3A">3주차 · 육군</p>
+    <h3>육군 ① 화력</h3>
+    <ol><li>화포(견인포 · 자주포)와 다연장로켓 비교</li><li>지대지 유도무기: 사거리 · 정확도(CEP) · 탄두</li><li>표적 획득 → 사격 지휘 → 피해 평가</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>AI 표적 자동 탐지와 화력 배분</li><li>배회형 탄약: 표적 탐색 · 자율 공격</li></ul></div>
+    <p class="cap">사진: HIMARS 실사격 훈련 · <a href="https://commons.wikimedia.org/wiki/File:HIMARS_live-fire_exercise_(9895010).jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w4">
+  <img src="img/w04.jpg" alt="M1A2 에이브럼스 전차 사격" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#4B5D3A">4주차 · 육군</p>
+    <h3>육군 ② 기동</h3>
+    <ol><li>기동 전력 3요소: 화력 · 방호력 · 기동력</li><li>전차 · 보병전투차량 · 장갑차 · 공격헬기의 역할</li><li>능동방호체계(APS)와 생존성</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>무인지상차량(UGV): 정찰 · 수송 · 경계</li><li>유무인 복합 기동부대 · APS 자동 위협 판단</li></ul></div>
+    <p class="cap">사진: M1A2 에이브럼스 전차 사격 · <a href="https://commons.wikimedia.org/wiki/File:M1A2_Abrams_tank_fires_on_range_11_at_Vaziani_Training_Area,_Georgia.jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w5">
+  <img src="img/w05.jpg" alt="알레이 버크급 구축함 항해" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#1F4E79">5주차 · 해군</p>
+    <h3>해군 ① 수상함</h3>
+    <ol><li>구축함 · 호위함 · 초계함 · 상륙함의 임무</li><li>이지스: 레이더 · 전투관리 · 함대공 미사일 통합</li><li>대공 · 대함 · 대잠 다중 임무</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>이지스 자동 교전 모드</li><li>무인수상정(USV): 감시정찰 · 기뢰 대응</li></ul></div>
+    <p class="cap">사진: 알레이 버크급 구축함 항해 · <a href="https://commons.wikimedia.org/wiki/File:USS_Arleigh_Burke_is_underway._(11177376336).jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w6">
+  <img src="img/w06.jpg" alt="버지니아급 잠수함 USS Virginia" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#1F4E79">6주차 · 해군</p>
+    <h3>해군 ② 잠수함 · 대잠전 · 기뢰전</h3>
+    <ol><li>잠수함 추진: 디젤 · AIP · 원자력</li><li>대잠전: 소나 · 대잠헬기 · 해상초계기</li><li>기뢰전: 부설 · 탐색 · 제거</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>AI 음향 신호 분석으로 표적 식별</li><li>무인잠수정(UUV) · 자율 기뢰 탐색 · 제거</li></ul></div>
+    <p class="cap">사진: 버지니아급 잠수함 USS Virginia · <a href="https://commons.wikimedia.org/wiki/File:US_Navy_100830-N-3090M-174_The_attack_submarine_USS_Virginia_(SSN_774)_departs_Naval_Submarine_Base_New_London.jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w7">
+  <img src="img/w07.jpg" alt="F-35A 비행" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#3E7CB1">7주차 · 공군</p>
+    <h3>공군 ① 전투기와 항공 무장</h3>
+    <ol><li>4 · 4.5 · 5세대 전투기(스텔스 · 센서 융합)</li><li>공대공 · 공대지 무장과 AESA 레이더</li><li>공중 우세 확보의 의미</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>DARPA AlphaDogfight · ACE 공중전 연구</li><li>조종사 의사결정 지원 · 센서 융합 AI</li></ul></div>
+    <p class="cap">사진: F-35A 비행 · <a href="https://commons.wikimedia.org/wiki/File:F-35_Heritage_Flight_Team_performs_in_Bell_Fort_Worth_Alliance_AirShow.jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w9">
+  <img src="img/w09.jpg" alt="KC-46 공중급유기" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#3E7CB1">9주차 · 공군</p>
+    <h3>공군 ② 항공 지원전력</h3>
+    <ol><li>급유기 · 조기경보기 · 수송기로 작전 범위 확장</li><li>무인기 분류: 정찰용 · 공격용 · 고도별</li><li>작전 지속성과 지휘통제 능력 확장</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>유무인 복합운용(MUM-T) · 충성스러운 윙맨</li><li>협동전투기(CCA) 자율 비행</li></ul></div>
+    <p class="cap">사진: KC-46 공중급유기 · <a href="https://commons.wikimedia.org/wiki/File:KC-46_Pegasus_at_Pease_Air_National_Guard_Base_on_7_February_2020.jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w10">
+  <img src="img/w10.jpg" alt="패트리엇 미사일 발사(발리카탄 2023)" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#7A4E2D">10주차 · 합동</p>
+    <h3>방공 · 탄도미사일 방어</h3>
+    <ol><li>다층 방공: 저 · 중 · 고고도 요격</li><li>탐지 → 추적 → 요격의 단계</li><li>대드론 방어의 부상</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>위협 자동 평가와 요격 우선순위 결정</li><li>자동 교전 오인 사격 사례와 인간 통제</li></ul></div>
+    <p class="cap">사진: 패트리엇 미사일 발사(발리카탄 2023) · <a href="https://commons.wikimedia.org/wiki/File:Patriot_missile_firing_during_Balikatan_2023.jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w11">
+  <img src="img/w11.jpg" alt="연합 항공작전센터(CAOC)" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#7A4E2D">11주차 · 합동</p>
+    <h3>정밀유도무기와 센서 · C4I</h3>
+    <ol><li>유도: 관성 · GPS · 적외선 · 레이더 · 영상</li><li>감시 → 결심 → 타격을 잇는 지휘통제</li><li>네트워크 중심전과 합동 지휘통제</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>영상 자동표적인식(ATR)</li><li>정보 분석 · 결심 지원(Project Maven)</li></ul></div>
+    <p class="cap">사진: 연합 항공작전센터(CAOC) · <a href="https://commons.wikimedia.org/wiki/File:Combined_Air_Operations_Center_at_Al_Udeid_Air_Base,_Qatar.jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w12">
+  <img src="img/w12.jpg" alt="MQ-9 리퍼 무인기" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#7A4E2D">12주차 · 합동</p>
+    <h3>무인 · AI 무기체계</h3>
+    <ol><li>무인체계 유형: 지상 · 해상 · 수중 · 공중</li><li>장점: 속도 · 정밀성 / 한계: 오판 · 기만 취약</li><li>윤리 · 법적 쟁점: 책임 소재 · 국제인도법</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>드론 군집(Swarm) 운용</li><li>자율살상무기(LAWS) 국제 논의 · 의미 있는 인간 통제</li></ul></div>
+    <p class="cap">사진: MQ-9 리퍼 무인기 · <a href="https://commons.wikimedia.org/wiki/File:MQ-9_Reaper_in_flight_2.jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w13">
+  <img src="img/w13.jpg" alt="GPS III 위성 발사" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#7A4E2D">13주차 · 합동</p>
+    <h3>우주 · 사이버 · 전자전</h3>
+    <ol><li>위성: 감시정찰 · 통신 · 항법</li><li>사이버전: 공격 · 방어 · 무기체계 보안</li><li>전자전: 전자공격 · 전자보호 · 전자지원</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>인지 전자전: 전파 환경 학습 · 대응</li><li>AI 사이버 위협 탐지 · 위성영상 분석</li></ul></div>
+    <p class="cap">사진: GPS III 위성 발사 · <a href="https://commons.wikimedia.org/wiki/File:GPS_III-SV09_Launches_from_Cape_Canaveral_Space_Force_Station_(9496887).jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article>
+<article class="week" id="w14">
+  <img src="img/w14.jpg" alt="핀란드군 K9 자주포(한국산 수출 장비)" loading="lazy">
+  <div class="body">
+    <p class="kick" style="color:#5F6B7A">14주차 · 공통</p>
+    <h3>한국군 무기체계 발전과 방산 수출</h3>
+    <ol><li>국산 무기체계 개발 역사와 주요 사례</li><li>방산 수출 현황과 국방 연구개발 체계</li><li>미래 전력 발전 방향</li></ol>
+    <div class="ai"><b>AI 적용 무기체계</b><ul><li>국방 AI 정책과 유무인 복합 전투체계</li><li>AI 무기체계 도입 시 고려 사항 종합</li></ul></div>
+    <p class="cap">사진: 핀란드군 K9 자주포(한국산 수출 장비) · <a href="https://commons.wikimedia.org/wiki/File:Dynamic_Front_25_-_Finnish_Army_K9_Moukari_Self-Propelled_Howitzer_(8761385).jpg" target="_blank" rel="noopener">Wikimedia Commons (퍼블릭 도메인)</a></p>
+  </div>
+</article></section>
+<section id="eval"><h2>평가계획 (안)</h2><div class="eval">
+<div><b style="color:#1B2A41">30%</b><h4>중간고사</h4><ul><li>범위 1~7주</li><li>객관식·단답 60%</li><li>서술형 40%</li></ul></div>
+<div><b style="color:#1F4E79">30%</b><h4>기말고사</h4><ul><li>범위 9~14주</li><li>객관식·단답 50%</li><li>서술형 50% (AI 무기체계 쟁점)</li></ul></div>
+<div><b style="color:#4B5D3A">20%</b><h4>과제 발표</h4><ul><li>정확성·출처 30%, 분석 30%</li><li>구성·전달 20%, 질의응답 20%</li><li>교수 70% + 동료 30%</li></ul></div>
+<div><b style="color:#D4A017">20%</b><h4>출석</h4><ul><li>결석 −2점, 지각·조퇴 −1점</li><li>공결은 증빙 시 인정</li><li>1/4 초과 결석 시 F</li></ul></div>
+</div></section>
+<section id="files"><h2>자료 내려받기</h2><a class="dl" href="files/weapons-deck.pdf" download>강의 장표 (PDF)</a><a class="dl" href="files/weapons-deck.pptx" download>강의 장표 (PowerPoint)</a><a class="dl" href="files/syllabus.docx" download>강의계획서 (Word)</a></section>
+</main>
+<footer>※ 실습용 가상 자료입니다. 실제 기관 · 인물과 관계없습니다. AI 적용 사례는 수업 전 원문 출처 확인이 필요하며, 평가계획은 확정 전 안(案)입니다.
+사진은 모두 Wikimedia Commons의 퍼블릭 도메인 자료입니다.</footer>
+</body></html>
